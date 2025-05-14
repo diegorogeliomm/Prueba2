@@ -1,0 +1,372 @@
+:root {
+    --color-text: #66615b;
+    --color-title: #111111;
+    --bg-blue: #f5fafd;
+    --color-icon: #888888;
+    --bg-footer: #252422;
+    --text-footer: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dosis', sans-serif;
+    color: var(--color-title);
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: var(--color-icon);
+    margin-bottom: 1rem;
+}
+
+.btn-download {
+    background-color: var(--color-title);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+
+.bg-footer {
+    background-color: var(--bg-footer);
+    color: var(--text-footer);
+}
+
+.header-bg {
+    background: linear-gradient(rgba(0,0,0,0.001), rgba(0,0,0,0.01)),
+                url("../img/bg-site.jpeg") center/cover;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+ 
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+}
+
+.feature-list li {
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.feature-list li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.btn-light {
+    background: transparent !important;
+    color: white !important;
+    border: 3px #FFFFFF;
+    font-weight: bold;
+    transition: all 0.3s;
+    padding: 1rem 3rem;
+    
+	border-radius: 70px; 
+    letter-spacing: 0.5px;
+}
+
+.btn-light:hover {
+    background: white !important;
+    color: var(--text-footer) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	
+	border-radius: 70px; 
+    letter-spacing: 0.5px;
+}
+.btn-download-nav {
+    background: transparent;
+    color: var(--text-footer) !important;
+    border: 2px solid var(--text-footer);
+    border-radius: 30px;
+    padding: 0.6rem 1.8rem;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+.btn-download-nav:hover {
+    background: var(--text-footer);
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 991px) {
+    .btn-download-nav {
+        margin: 1rem 0;
+        display: inline-block;
+        width: auto;
+    }
+}
+.feature-item {
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.feature-icon {
+    color: #FC5646; 
+    min-width: 80px;
+    margin-right: 1.5rem;
+}
+
+.feature-title {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 0.8rem;
+    font-size: 1.25rem;
+}
+.about {
+    background: #fff;
+}
+
+.section-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--color-title);
+}
+
+.about-text {
+    color: var(--color-text);
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+.check-item {
+    padding: 0.8rem 1rem;
+    background: #FFF;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.check-item:hover {
+    background: #fff;
+    transform: translateX(5px);
+}
+
+.check-icon {
+    font-size: 1.5rem;
+    min-width: 30px;
+    text-align: center;
+	color: #585B5E 
+}
+
+.text-primary {
+    color: #585B5E !important;
+}
+
+.text-muted {
+    color: #adb5bd !important;
+}
+
+.feature-text {
+    color: #666666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.feature-item:hover {
+    background: #FFF;
+    border-radius: 8px;
+    transform: translateY(-5px);
+}
+.text-gray {
+    color: #6c757d !important; 
+}
+
+.check-icon {
+    font-size: 1.5rem;
+    min-width: 30px;
+    text-align: center;
+    color: #6c757d;
+}
+
+.bg-blue {
+    background-color: #f5fafd !important;
+}
+
+.device-mockup {
+    padding: rem;
+    background: white;
+    border-radius: 25px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #FC702B;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.section-title {
+    color: #111111;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    color: #66615b;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.testimonials {
+    background-color: #FFF;
+}
+
+.testimonial-card {
+    background-color: #f5fafd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+	background-color: var(--bg-blue);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-text);
+}
+
+.testimonial-author h5 {
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.testimonial-author p {
+    font-size: 0.9rem;
+    color: var(--color-text);
+}
+
+.rounded-circle {
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+}
+.download {
+    background: linear-gradient(to right, #ff6b6b, #ff8a65); 
+}
+
+.download h2 {
+    color: white;
+    font-weight: 700;
+}
+
+
+.btn-download-appstore,
+.btn-download-playstore,
+.btn-download-microsoft {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-download-appstore:hover,
+.btn-download-playstore:hover,
+.btn-download-microsoft:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-download-appstore img,
+.btn-download-playstore img,
+.btn-download-microsoft img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+
+
+.btn-download-appstore p,
+.btn-download-playstore p,
+.btn-download-microsoft p {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.btn-download-appstore small,
+.btn-download-playstore small,
+.btn-download-microsoft small {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.btn-store {
+    background-color: #ffffff !important; 
+    color: #333 !important;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.btn-store:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.store-icon {
+    font-size: 1.5rem; 
+    color: #333;
+}
+
+.apple-btn .store-icon {
+    color: #4F4F4F;
+}
+.googleplay-btn .store-icon {
+    color: #4F4F4F; 
+}
+.windows-btn .store-icon {
+    color: #4F4F4F; 
+}
+.btn-store small,
+.btn-store span {
+    color: inherit;
+}
